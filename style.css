@@ -152,6 +152,65 @@ nav.fa{
 
 /*------------ Exercises Page ------------*/
 
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  .container{ 
+    width:100%;
+    min-height: 100vh;
+    background-color:#e4e0e0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 90px;
+  }
+  .content-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+  }
+  .content-section .card {
+      flex:1;
+      margin: 20px 20px;
+      box-shadow: 0px 2px 8px 0 px rgba(0,0,0,0.2);
+  
+  }
+  .content-section card img{
+      width: 80%;
+      height:90%;
+  
+  }
+  .content-section h2{
+      margin: 15px 0px;
+      font-size: 28px;
+      color: #021729;
+      font-family: sans-serif;
+  }
+  .content-section .card p{
+      font-size: 20px;
+      line-height: 1.0;
+      padding:  0px 10px;
+      margin-bottom: 17px;
+      font-family: sans-serif;
+  }
+   @media screen and(max-width:768px) {
+      .content-section{
+          flex-direction: column;
+      }
+      
+   } 
+   img{
+    width: 500px;
+    height: 500px;
+   }
+      
+  
+
 
 
 /*------------ Review Page ------------*/
